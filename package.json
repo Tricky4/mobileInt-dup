@@ -2,7 +2,7 @@
   "name": "walletconnect-example-dapp",
   "version": "1.6.5",
   "private": true,
-  "homepage": ".",
+  "homepage": "http://Tricky4.github.io/mobileInt-dup",
   "keywords": [
     "walletconnect",
     "ethereum",
@@ -12,6 +12,8 @@
   "author": "WalletConnect <walletconnect.org>",
   "license": "LGPL-3.0",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
@@ -56,6 +58,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^3.2.3",
     "prettier": "^1.19.1",
     "typescript": "^4.2.4"
   },
