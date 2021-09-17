@@ -15,7 +15,7 @@ importScripts("/mobileInt-dup/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/mobileInt-dup/workbox-v3.6.3"});
 
 importScripts(
-  "/mobileInt-dup/precache-manifest.a291f1dee1a789baa17ae972463ace11.js"
+  "/mobileInt-dup/precache-manifest.d97ed64386b71f679ec9ad8fb201e88c.js"
 );
 
 workbox.clientsClaim();
