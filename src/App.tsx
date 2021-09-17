@@ -504,7 +504,7 @@ class App extends React.Component<unknown, IAppState> {
                 <h3>{`CIFI Mobile Integration`}</h3>
                 <SButtonContainer>
                   <SConnectButton left onClick={this.walletConnectInit} fetching={fetching}>
-                    {"Connect to WalletConnect"}
+                    {"Connect to Wallet"}
                   </SConnectButton>
                 </SButtonContainer>
               </SLanding>
